@@ -1,10 +1,15 @@
 # economic
-Python  financial script that returns values according to user's input.
- 
-def calculate_inflation -  returns the amount in CZK adjusted for inflation. Input parametres are start year, end year and sum of money. 
+Python  financial script that returns values according to user's input. 
+Additional data.py file contains inflation and salary data. These data are 
+based from Czech Republic for years 1995 - 2017. 
 
-def minus_percent - returns the percent of devaluation input amount
+The script returns:
+- amount adjusted for inflation
+- devaluation of input amount
+- yearly inflation for each year
+- average salary for each year
+- valuation of salary
+- net valuation of salary 
 
-def yearly_inflation - returns rate of inflation for input years
 
-All data are based from Czech Republic for years 1995 - 2017.
+
